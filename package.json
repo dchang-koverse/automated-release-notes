@@ -1,0 +1,21 @@
+{
+  "name": "automated-release-notes",
+  "version": "1.0.0",
+  "description": "Repo for testing automated release notes",
+  "main": "index.js",
+  "repository": "https://github.com/dchang-koverse/automated-release-notes.git",
+  "author": "Dale Chang <dalechang@koverse.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "scripts": {
+    "commitizen": "commitizen"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
