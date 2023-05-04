@@ -1,6 +1,6 @@
 {
   "name": "automated-release-notes",
-  "version": "1.0.0",
+  "version": "1.0.2-alpha1",
   "description": "Repo for testing automated release notes",
   "main": "index.js",
   "repository": "https://github.com/dchang-koverse/automated-release-notes.git",
