@@ -10,3 +10,7 @@ Repo for testing how to automate release notes
 4. Run `git add README.md`
 5. Run `git commit` and go through the prompts
 6. Run `git push` to start the [Release Please](https://github.com/googleapis/release-please) GitHub Workflow
+
+## Bug Fixes
+
+Use the CLI prompt and choose `fix:`
