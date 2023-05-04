@@ -24,7 +24,13 @@ module.exports = {
       { value: 'WIP', name: 'WIP:      Work in progress' },
     ],
   
-    scopes: [{ name: 'accounts' }, { name: 'admin' }, { name: 'exampleScope' }, { name: 'changeMe' }],
+    scopes: [
+        { name: 'data-store' },
+        { name: 'object-store' },
+        { name: 'cap' },
+        { name: 'live-feed' },
+        { name: 'sql-search' }
+    ],
   
     usePreparedCommit: false, // to re-use commit from ./.git/COMMIT_EDITMSG
     allowTicketNumber: false,
