@@ -18,3 +18,7 @@ Use the CLI prompt and choose `fix:`
 ## Feature Branches
 
 Using GitFlow strategy, this change is introduced on `JIRA-001` and merged into the `develop` branch.
+
+### v1.0.3
+
+This should hopefully trigger v1.0.3 to get released.
