@@ -11,14 +11,20 @@ Repo for testing how to automate release notes
 5. Run `git commit` and go through the prompts
 6. Run `git push` to start the [Release Please](https://github.com/googleapis/release-please) GitHub Workflow
 
-## Bug Fixes
+---
+
+## Playground
+
+Below are random changes I've made to trigger GHA and test the whole `git commit lint` process.
+
+### Bug Fixes
 
 Use the CLI prompt and choose `fix:`
 
-## Feature Branches
+### Feature Branches
 
 Using GitFlow strategy, this change is introduced on `JIRA-001` and merged into the `develop` branch.
 
-### v1.0.3
+#### v1.0.3
 
 This should hopefully trigger v1.0.3 to get released.
