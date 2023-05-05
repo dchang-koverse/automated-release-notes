@@ -28,3 +28,7 @@ Using GitFlow strategy, this change is introduced on `JIRA-001` and merged into 
 #### v1.0.3
 
 This should hopefully trigger v1.0.3 to get released.
+
+#### v1.0.4
+
+Release v1.0.4
