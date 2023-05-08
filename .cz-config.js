@@ -1,3 +1,4 @@
+// Taken from https://github.com/leoforfree/cz-customizable
 module.exports = {
     types: [
       { value: 'feat', name: 'feat:     A new feature' },
@@ -22,6 +23,7 @@ module.exports = {
       },
       { value: 'revert', name: 'revert:   Revert to a commit' },
       { value: 'WIP', name: 'WIP:      Work in progress' },
+      { value: 'wut', name: 'wut:      Wut is going on' },
     ],
   
     scopes: [

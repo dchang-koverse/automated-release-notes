@@ -7,15 +7,23 @@
   "author": "Dale Chang <dalechang@koverse.com>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
     "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
+    "husky": "^8.0.0"
   },
   "scripts": {
-    "commitizen": "commitizen"
+    "commitizen": "commitizen",
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-customizable"
     }
+  },
+  "cz-customizable": {
+    "config": ".cz-config.js"
   }
 }
