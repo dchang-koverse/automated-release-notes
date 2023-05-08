@@ -32,7 +32,3 @@ This should hopefully trigger v1.0.3 to get released.
 #### v1.0.4
 
 Release v1.0.4
-
-##### No Verify
-
-`--no-verify` means that this commit is just trash and shouldn't be included in the release notes or `CHANGELOG.md`.
