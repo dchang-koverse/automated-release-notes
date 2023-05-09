@@ -1,5 +1,5 @@
 {
-  "name": "automated-release-notes",
+  "name": "commitizen-release-notes",
   "version": "1.0.3",
   "description": "Repo for testing automated release notes",
   "main": "index.js",
